@@ -2,6 +2,7 @@
 import cv2
 #starting cam
 cap=cv2.VideoCapture(0)
+# Hello this is my example
 #status of camera
 while cap.isOpened():
     status,frame=cap.read()
@@ -14,3 +15,4 @@ while cap.isOpened():
         break
 cv2.destroyAllWindows()
 cap.release()
+# This is ecnd of my code
